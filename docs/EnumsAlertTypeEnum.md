@@ -1,0 +1,12 @@
+# EnumsAlertTypeEnum
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**None** | **string** |  | [optional] [default to null]
+**System** | **string** |  | [optional] [default to null]
+**Custom** | **string** |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
