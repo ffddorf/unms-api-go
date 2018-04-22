@@ -5,7 +5,7 @@ info:
     \ the right, to not have to fill in\nauthorization token for each request. Entered\
     \ value in authorization token for a request,\nwill be replaced by the one entered\
     \ in authorization. To get this token use /user/login request."
-  version: "2.1"
+  version: "2.0"
   title: "UNMS API"
 basePath: "/v2.1"
 tags:

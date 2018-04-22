@@ -1,6 +1,6 @@
 # \TasksApi
 
-All URIs are relative to *https://&lt;unms-deployment&gt;/v2.1*
+All URIs are relative to *https://&lt;unms-deployment&gt;/v2.0*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
