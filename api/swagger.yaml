@@ -4222,8 +4222,8 @@ definitions:
         firmwareVersion: "firmwareVersion"
         updated: 0.80082819046101150206595775671303272247314453125
       latestBackup:
-        hash: "hash"
-        timestamp: "timestamp"
+        hash: 8.7620420127490010742121739895083010196685791015625
+        timestamp: 9.0183481860707832566959041287191212177276611328125
       attributes: "{}"
       firmware:
         current: "current"
@@ -6435,15 +6435,15 @@ definitions:
     type: "object"
     properties:
       hash:
-        type: "string"
+        type: "number"
         description: "latest backup id"
       timestamp:
-        type: "string"
+        type: "number"
         description: "latest backup timestamp"
     description: "Latest backup info"
     example:
-      hash: "hash"
-      timestamp: "timestamp"
+      hash: 8.7620420127490010742121739895083010196685791015625
+      timestamp: 9.0183481860707832566959041287191212177276611328125
   DeviceUpgradeStatus:
     type: "object"
     properties:

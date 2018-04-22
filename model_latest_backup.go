@@ -12,8 +12,8 @@ package unms
 // Latest backup info
 type LatestBackup struct {
 	// latest backup id
-	Hash string `json:"hash,omitempty"`
+	Hash float32 `json:"hash,omitempty"`
 
 	// latest backup timestamp
-	Timestamp string `json:"timestamp,omitempty"`
+	Timestamp float32 `json:"timestamp,omitempty"`
 }
