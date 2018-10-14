@@ -18,7 +18,7 @@ type DeviceOverview struct {
 	Uptime float32 `json:"uptime,omitempty"`
 
 	// Last seen timestamp
-	LastSeen float32 `json:"lastSeen,omitempty"`
+	LastSeen string `json:"lastSeen,omitempty"`
 
 	// Current cpu load
 	Cpu float32 `json:"cpu,omitempty"`

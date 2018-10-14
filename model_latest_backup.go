@@ -15,5 +15,5 @@ type LatestBackup struct {
 	Hash float32 `json:"hash,omitempty"`
 
 	// latest backup timestamp
-	Timestamp float32 `json:"timestamp,omitempty"`
+	Timestamp string `json:"timestamp,omitempty"`
 }

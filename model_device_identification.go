@@ -44,5 +44,5 @@ type DeviceIdentification struct {
 
 	Type_ string `json:"type,omitempty"`
 
-	Updated float32 `json:"updated,omitempty"`
+	Updated string `json:"updated,omitempty"`
 }
