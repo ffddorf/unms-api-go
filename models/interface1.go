@@ -16,10 +16,10 @@ import (
 type Interface1 struct {
 
 	// sfp 1
-	Sfp1 *Sfp1 `json:"sfp+1,omitempty"`
+	SfpPlus1 *Sfp1 `json:"sfp+1,omitempty"`
 
 	// sfp 2
-	Sfp2 *Sfp2 `json:"sfp+2,omitempty"`
+	SfpPlus2 *Sfp2 `json:"sfp+2,omitempty"`
 
 	// sfp1
 	Sfp1 *Sfp1 `json:"sfp1,omitempty"`
@@ -54,9 +54,9 @@ func (m *Interface1) Validate(formats strfmt.Registry) error {
 	return nil
 }
 
-func (m *Interface1) validateSfp1(formats strfmt.Registry) error {
+func (m *Interface1) validateSfpPlus1(formats strfmt.Registry) error {
 
-	if swag.IsZero(m.Sfp1) { // not required
+	if swag.IsZero(m.SfpPlus1) { // not required
 		return nil
 	}
 
@@ -72,9 +72,9 @@ func (m *Interface1) validateSfp1(formats strfmt.Registry) error {
 	return nil
 }
 
-func (m *Interface1) validateSfp2(formats strfmt.Registry) error {
+func (m *Interface1) validateSfpPlus2(formats strfmt.Registry) error {
 
-	if swag.IsZero(m.Sfp2) { // not required
+	if swag.IsZero(m.SfpPlus2) { // not required
 		return nil
 	}
 

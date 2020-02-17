@@ -1234,51 +1234,6 @@ func init() {
 	}
 }
 
-const (
-
-	// NmsUpdateSettingsDateFormatDMMMYYYY captures enum value "D MMM YYYY"
-	NmsUpdateSettingsDateFormatDMMMYYYY string = "D MMM YYYY"
-
-	// NmsUpdateSettingsDateFormatDoMMMYYYY captures enum value "Do MMM YYYY"
-	NmsUpdateSettingsDateFormatDoMMMYYYY string = "Do MMM YYYY"
-
-	// NmsUpdateSettingsDateFormatDDMMMYYYY captures enum value "DD MMM YYYY"
-	NmsUpdateSettingsDateFormatDDMMMYYYY string = "DD MMM YYYY"
-
-	// NmsUpdateSettingsDateFormatMMMDYYYY captures enum value "MMM D, YYYY"
-	NmsUpdateSettingsDateFormatMMMDYYYY string = "MMM D, YYYY"
-
-	// NmsUpdateSettingsDateFormatMMMDoYYYY captures enum value "MMM Do, YYYY"
-	NmsUpdateSettingsDateFormatMMMDoYYYY string = "MMM Do, YYYY"
-
-	// NmsUpdateSettingsDateFormatMMMDDYYYY captures enum value "MMM DD, YYYY"
-	NmsUpdateSettingsDateFormatMMMDDYYYY string = "MMM DD, YYYY"
-
-	// NmsUpdateSettingsDateFormatYYYYMMDD captures enum value "YYYY-MM-DD"
-	NmsUpdateSettingsDateFormatYYYYMMDD string = "YYYY-MM-DD"
-
-	// NmsUpdateSettingsDateFormatDDMMYYYY captures enum value "DD-MM-YYYY"
-	NmsUpdateSettingsDateFormatDDMMYYYY string = "DD-MM-YYYY"
-
-	// NmsUpdateSettingsDateFormatDMYYYY captures enum value "D.M.YYYY"
-	NmsUpdateSettingsDateFormatDMYYYY string = "D.M.YYYY"
-
-	// NmsUpdateSettingsDateFormatDDMMYYYY captures enum value "DD.MM.YYYY"
-	NmsUpdateSettingsDateFormatDDMMYYYY string = "DD.MM.YYYY"
-
-	// NmsUpdateSettingsDateFormatDMYYYY captures enum value "D/M/YYYY"
-	NmsUpdateSettingsDateFormatDMYYYY string = "D/M/YYYY"
-
-	// NmsUpdateSettingsDateFormatDDMMYYYY captures enum value "DD/MM/YYYY"
-	NmsUpdateSettingsDateFormatDDMMYYYY string = "DD/MM/YYYY"
-
-	// NmsUpdateSettingsDateFormatMDYYYY captures enum value "M/D/YYYY"
-	NmsUpdateSettingsDateFormatMDYYYY string = "M/D/YYYY"
-
-	// NmsUpdateSettingsDateFormatMMDDYYYY captures enum value "MM/DD/YYYY"
-	NmsUpdateSettingsDateFormatMMDDYYYY string = "MM/DD/YYYY"
-)
-
 // prop value enum
 func (m *NmsUpdateSettings) validateDateFormatEnum(path, location string, value string) error {
 	if err := validate.Enum(path, location, value, nmsUpdateSettingsTypeDateFormatPropEnum); err != nil {
@@ -3017,104 +2972,8 @@ const (
 	// NmsUpdateSettingsTimezoneEire captures enum value "Eire"
 	NmsUpdateSettingsTimezoneEire string = "Eire"
 
-	// NmsUpdateSettingsTimezoneEtcGMT captures enum value "Etc/GMT"
-	NmsUpdateSettingsTimezoneEtcGMT string = "Etc/GMT"
-
-	// NmsUpdateSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT+0"
-	NmsUpdateSettingsTimezoneEtcGMT0 string = "Etc/GMT+0"
-
-	// NmsUpdateSettingsTimezoneEtcGMT1 captures enum value "Etc/GMT+1"
-	NmsUpdateSettingsTimezoneEtcGMT1 string = "Etc/GMT+1"
-
-	// NmsUpdateSettingsTimezoneEtcGMT10 captures enum value "Etc/GMT+10"
-	NmsUpdateSettingsTimezoneEtcGMT10 string = "Etc/GMT+10"
-
-	// NmsUpdateSettingsTimezoneEtcGMT11 captures enum value "Etc/GMT+11"
-	NmsUpdateSettingsTimezoneEtcGMT11 string = "Etc/GMT+11"
-
-	// NmsUpdateSettingsTimezoneEtcGMT12 captures enum value "Etc/GMT+12"
-	NmsUpdateSettingsTimezoneEtcGMT12 string = "Etc/GMT+12"
-
-	// NmsUpdateSettingsTimezoneEtcGMT2 captures enum value "Etc/GMT+2"
-	NmsUpdateSettingsTimezoneEtcGMT2 string = "Etc/GMT+2"
-
-	// NmsUpdateSettingsTimezoneEtcGMT3 captures enum value "Etc/GMT+3"
-	NmsUpdateSettingsTimezoneEtcGMT3 string = "Etc/GMT+3"
-
-	// NmsUpdateSettingsTimezoneEtcGMT4 captures enum value "Etc/GMT+4"
-	NmsUpdateSettingsTimezoneEtcGMT4 string = "Etc/GMT+4"
-
-	// NmsUpdateSettingsTimezoneEtcGMT5 captures enum value "Etc/GMT+5"
-	NmsUpdateSettingsTimezoneEtcGMT5 string = "Etc/GMT+5"
-
-	// NmsUpdateSettingsTimezoneEtcGMT6 captures enum value "Etc/GMT+6"
-	NmsUpdateSettingsTimezoneEtcGMT6 string = "Etc/GMT+6"
-
-	// NmsUpdateSettingsTimezoneEtcGMT7 captures enum value "Etc/GMT+7"
-	NmsUpdateSettingsTimezoneEtcGMT7 string = "Etc/GMT+7"
-
-	// NmsUpdateSettingsTimezoneEtcGMT8 captures enum value "Etc/GMT+8"
-	NmsUpdateSettingsTimezoneEtcGMT8 string = "Etc/GMT+8"
-
-	// NmsUpdateSettingsTimezoneEtcGMT9 captures enum value "Etc/GMT+9"
-	NmsUpdateSettingsTimezoneEtcGMT9 string = "Etc/GMT+9"
-
-	// NmsUpdateSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT-0"
-	NmsUpdateSettingsTimezoneEtcGMT0 string = "Etc/GMT-0"
-
-	// NmsUpdateSettingsTimezoneEtcGMT1 captures enum value "Etc/GMT-1"
-	NmsUpdateSettingsTimezoneEtcGMT1 string = "Etc/GMT-1"
-
-	// NmsUpdateSettingsTimezoneEtcGMT10 captures enum value "Etc/GMT-10"
-	NmsUpdateSettingsTimezoneEtcGMT10 string = "Etc/GMT-10"
-
-	// NmsUpdateSettingsTimezoneEtcGMT11 captures enum value "Etc/GMT-11"
-	NmsUpdateSettingsTimezoneEtcGMT11 string = "Etc/GMT-11"
-
-	// NmsUpdateSettingsTimezoneEtcGMT12 captures enum value "Etc/GMT-12"
-	NmsUpdateSettingsTimezoneEtcGMT12 string = "Etc/GMT-12"
-
-	// NmsUpdateSettingsTimezoneEtcGMT13 captures enum value "Etc/GMT-13"
-	NmsUpdateSettingsTimezoneEtcGMT13 string = "Etc/GMT-13"
-
-	// NmsUpdateSettingsTimezoneEtcGMT14 captures enum value "Etc/GMT-14"
-	NmsUpdateSettingsTimezoneEtcGMT14 string = "Etc/GMT-14"
-
-	// NmsUpdateSettingsTimezoneEtcGMT2 captures enum value "Etc/GMT-2"
-	NmsUpdateSettingsTimezoneEtcGMT2 string = "Etc/GMT-2"
-
-	// NmsUpdateSettingsTimezoneEtcGMT3 captures enum value "Etc/GMT-3"
-	NmsUpdateSettingsTimezoneEtcGMT3 string = "Etc/GMT-3"
-
-	// NmsUpdateSettingsTimezoneEtcGMT4 captures enum value "Etc/GMT-4"
-	NmsUpdateSettingsTimezoneEtcGMT4 string = "Etc/GMT-4"
-
-	// NmsUpdateSettingsTimezoneEtcGMT5 captures enum value "Etc/GMT-5"
-	NmsUpdateSettingsTimezoneEtcGMT5 string = "Etc/GMT-5"
-
-	// NmsUpdateSettingsTimezoneEtcGMT6 captures enum value "Etc/GMT-6"
-	NmsUpdateSettingsTimezoneEtcGMT6 string = "Etc/GMT-6"
-
-	// NmsUpdateSettingsTimezoneEtcGMT7 captures enum value "Etc/GMT-7"
-	NmsUpdateSettingsTimezoneEtcGMT7 string = "Etc/GMT-7"
-
-	// NmsUpdateSettingsTimezoneEtcGMT8 captures enum value "Etc/GMT-8"
-	NmsUpdateSettingsTimezoneEtcGMT8 string = "Etc/GMT-8"
-
-	// NmsUpdateSettingsTimezoneEtcGMT9 captures enum value "Etc/GMT-9"
-	NmsUpdateSettingsTimezoneEtcGMT9 string = "Etc/GMT-9"
-
-	// NmsUpdateSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT0"
-	NmsUpdateSettingsTimezoneEtcGMT0 string = "Etc/GMT0"
-
 	// NmsUpdateSettingsTimezoneEtcGreenwich captures enum value "Etc/Greenwich"
 	NmsUpdateSettingsTimezoneEtcGreenwich string = "Etc/Greenwich"
-
-	// NmsUpdateSettingsTimezoneEtcUCT captures enum value "Etc/UCT"
-	NmsUpdateSettingsTimezoneEtcUCT string = "Etc/UCT"
-
-	// NmsUpdateSettingsTimezoneEtcUTC captures enum value "Etc/UTC"
-	NmsUpdateSettingsTimezoneEtcUTC string = "Etc/UTC"
 
 	// NmsUpdateSettingsTimezoneEtcUniversal captures enum value "Etc/Universal"
 	NmsUpdateSettingsTimezoneEtcUniversal string = "Etc/Universal"
@@ -3319,12 +3178,6 @@ const (
 
 	// NmsUpdateSettingsTimezoneGMT captures enum value "GMT"
 	NmsUpdateSettingsTimezoneGMT string = "GMT"
-
-	// NmsUpdateSettingsTimezoneGMT0 captures enum value "GMT+0"
-	NmsUpdateSettingsTimezoneGMT0 string = "GMT+0"
-
-	// NmsUpdateSettingsTimezoneGMT0 captures enum value "GMT-0"
-	NmsUpdateSettingsTimezoneGMT0 string = "GMT-0"
 
 	// NmsUpdateSettingsTimezoneGMT0 captures enum value "GMT0"
 	NmsUpdateSettingsTimezoneGMT0 string = "GMT0"

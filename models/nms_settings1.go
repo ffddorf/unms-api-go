@@ -1258,51 +1258,6 @@ func init() {
 	}
 }
 
-const (
-
-	// NmsSettings1DateFormatDMMMYYYY captures enum value "D MMM YYYY"
-	NmsSettings1DateFormatDMMMYYYY string = "D MMM YYYY"
-
-	// NmsSettings1DateFormatDoMMMYYYY captures enum value "Do MMM YYYY"
-	NmsSettings1DateFormatDoMMMYYYY string = "Do MMM YYYY"
-
-	// NmsSettings1DateFormatDDMMMYYYY captures enum value "DD MMM YYYY"
-	NmsSettings1DateFormatDDMMMYYYY string = "DD MMM YYYY"
-
-	// NmsSettings1DateFormatMMMDYYYY captures enum value "MMM D, YYYY"
-	NmsSettings1DateFormatMMMDYYYY string = "MMM D, YYYY"
-
-	// NmsSettings1DateFormatMMMDoYYYY captures enum value "MMM Do, YYYY"
-	NmsSettings1DateFormatMMMDoYYYY string = "MMM Do, YYYY"
-
-	// NmsSettings1DateFormatMMMDDYYYY captures enum value "MMM DD, YYYY"
-	NmsSettings1DateFormatMMMDDYYYY string = "MMM DD, YYYY"
-
-	// NmsSettings1DateFormatYYYYMMDD captures enum value "YYYY-MM-DD"
-	NmsSettings1DateFormatYYYYMMDD string = "YYYY-MM-DD"
-
-	// NmsSettings1DateFormatDDMMYYYY captures enum value "DD-MM-YYYY"
-	NmsSettings1DateFormatDDMMYYYY string = "DD-MM-YYYY"
-
-	// NmsSettings1DateFormatDMYYYY captures enum value "D.M.YYYY"
-	NmsSettings1DateFormatDMYYYY string = "D.M.YYYY"
-
-	// NmsSettings1DateFormatDDMMYYYY captures enum value "DD.MM.YYYY"
-	NmsSettings1DateFormatDDMMYYYY string = "DD.MM.YYYY"
-
-	// NmsSettings1DateFormatDMYYYY captures enum value "D/M/YYYY"
-	NmsSettings1DateFormatDMYYYY string = "D/M/YYYY"
-
-	// NmsSettings1DateFormatDDMMYYYY captures enum value "DD/MM/YYYY"
-	NmsSettings1DateFormatDDMMYYYY string = "DD/MM/YYYY"
-
-	// NmsSettings1DateFormatMDYYYY captures enum value "M/D/YYYY"
-	NmsSettings1DateFormatMDYYYY string = "M/D/YYYY"
-
-	// NmsSettings1DateFormatMMDDYYYY captures enum value "MM/DD/YYYY"
-	NmsSettings1DateFormatMMDDYYYY string = "MM/DD/YYYY"
-)
-
 // prop value enum
 func (m *NmsSettings1) validateDateFormatEnum(path, location string, value string) error {
 	if err := validate.Enum(path, location, value, nmsSettings1TypeDateFormatPropEnum); err != nil {
@@ -3068,108 +3023,6 @@ const (
 	// NmsSettings1TimezoneEire captures enum value "Eire"
 	NmsSettings1TimezoneEire string = "Eire"
 
-	// NmsSettings1TimezoneEtcGMT captures enum value "Etc/GMT"
-	NmsSettings1TimezoneEtcGMT string = "Etc/GMT"
-
-	// NmsSettings1TimezoneEtcGMT0 captures enum value "Etc/GMT+0"
-	NmsSettings1TimezoneEtcGMT0 string = "Etc/GMT+0"
-
-	// NmsSettings1TimezoneEtcGMT1 captures enum value "Etc/GMT+1"
-	NmsSettings1TimezoneEtcGMT1 string = "Etc/GMT+1"
-
-	// NmsSettings1TimezoneEtcGMT10 captures enum value "Etc/GMT+10"
-	NmsSettings1TimezoneEtcGMT10 string = "Etc/GMT+10"
-
-	// NmsSettings1TimezoneEtcGMT11 captures enum value "Etc/GMT+11"
-	NmsSettings1TimezoneEtcGMT11 string = "Etc/GMT+11"
-
-	// NmsSettings1TimezoneEtcGMT12 captures enum value "Etc/GMT+12"
-	NmsSettings1TimezoneEtcGMT12 string = "Etc/GMT+12"
-
-	// NmsSettings1TimezoneEtcGMT2 captures enum value "Etc/GMT+2"
-	NmsSettings1TimezoneEtcGMT2 string = "Etc/GMT+2"
-
-	// NmsSettings1TimezoneEtcGMT3 captures enum value "Etc/GMT+3"
-	NmsSettings1TimezoneEtcGMT3 string = "Etc/GMT+3"
-
-	// NmsSettings1TimezoneEtcGMT4 captures enum value "Etc/GMT+4"
-	NmsSettings1TimezoneEtcGMT4 string = "Etc/GMT+4"
-
-	// NmsSettings1TimezoneEtcGMT5 captures enum value "Etc/GMT+5"
-	NmsSettings1TimezoneEtcGMT5 string = "Etc/GMT+5"
-
-	// NmsSettings1TimezoneEtcGMT6 captures enum value "Etc/GMT+6"
-	NmsSettings1TimezoneEtcGMT6 string = "Etc/GMT+6"
-
-	// NmsSettings1TimezoneEtcGMT7 captures enum value "Etc/GMT+7"
-	NmsSettings1TimezoneEtcGMT7 string = "Etc/GMT+7"
-
-	// NmsSettings1TimezoneEtcGMT8 captures enum value "Etc/GMT+8"
-	NmsSettings1TimezoneEtcGMT8 string = "Etc/GMT+8"
-
-	// NmsSettings1TimezoneEtcGMT9 captures enum value "Etc/GMT+9"
-	NmsSettings1TimezoneEtcGMT9 string = "Etc/GMT+9"
-
-	// NmsSettings1TimezoneEtcGMT0 captures enum value "Etc/GMT-0"
-	NmsSettings1TimezoneEtcGMT0 string = "Etc/GMT-0"
-
-	// NmsSettings1TimezoneEtcGMT1 captures enum value "Etc/GMT-1"
-	NmsSettings1TimezoneEtcGMT1 string = "Etc/GMT-1"
-
-	// NmsSettings1TimezoneEtcGMT10 captures enum value "Etc/GMT-10"
-	NmsSettings1TimezoneEtcGMT10 string = "Etc/GMT-10"
-
-	// NmsSettings1TimezoneEtcGMT11 captures enum value "Etc/GMT-11"
-	NmsSettings1TimezoneEtcGMT11 string = "Etc/GMT-11"
-
-	// NmsSettings1TimezoneEtcGMT12 captures enum value "Etc/GMT-12"
-	NmsSettings1TimezoneEtcGMT12 string = "Etc/GMT-12"
-
-	// NmsSettings1TimezoneEtcGMT13 captures enum value "Etc/GMT-13"
-	NmsSettings1TimezoneEtcGMT13 string = "Etc/GMT-13"
-
-	// NmsSettings1TimezoneEtcGMT14 captures enum value "Etc/GMT-14"
-	NmsSettings1TimezoneEtcGMT14 string = "Etc/GMT-14"
-
-	// NmsSettings1TimezoneEtcGMT2 captures enum value "Etc/GMT-2"
-	NmsSettings1TimezoneEtcGMT2 string = "Etc/GMT-2"
-
-	// NmsSettings1TimezoneEtcGMT3 captures enum value "Etc/GMT-3"
-	NmsSettings1TimezoneEtcGMT3 string = "Etc/GMT-3"
-
-	// NmsSettings1TimezoneEtcGMT4 captures enum value "Etc/GMT-4"
-	NmsSettings1TimezoneEtcGMT4 string = "Etc/GMT-4"
-
-	// NmsSettings1TimezoneEtcGMT5 captures enum value "Etc/GMT-5"
-	NmsSettings1TimezoneEtcGMT5 string = "Etc/GMT-5"
-
-	// NmsSettings1TimezoneEtcGMT6 captures enum value "Etc/GMT-6"
-	NmsSettings1TimezoneEtcGMT6 string = "Etc/GMT-6"
-
-	// NmsSettings1TimezoneEtcGMT7 captures enum value "Etc/GMT-7"
-	NmsSettings1TimezoneEtcGMT7 string = "Etc/GMT-7"
-
-	// NmsSettings1TimezoneEtcGMT8 captures enum value "Etc/GMT-8"
-	NmsSettings1TimezoneEtcGMT8 string = "Etc/GMT-8"
-
-	// NmsSettings1TimezoneEtcGMT9 captures enum value "Etc/GMT-9"
-	NmsSettings1TimezoneEtcGMT9 string = "Etc/GMT-9"
-
-	// NmsSettings1TimezoneEtcGMT0 captures enum value "Etc/GMT0"
-	NmsSettings1TimezoneEtcGMT0 string = "Etc/GMT0"
-
-	// NmsSettings1TimezoneEtcGreenwich captures enum value "Etc/Greenwich"
-	NmsSettings1TimezoneEtcGreenwich string = "Etc/Greenwich"
-
-	// NmsSettings1TimezoneEtcUCT captures enum value "Etc/UCT"
-	NmsSettings1TimezoneEtcUCT string = "Etc/UCT"
-
-	// NmsSettings1TimezoneEtcUTC captures enum value "Etc/UTC"
-	NmsSettings1TimezoneEtcUTC string = "Etc/UTC"
-
-	// NmsSettings1TimezoneEtcUniversal captures enum value "Etc/Universal"
-	NmsSettings1TimezoneEtcUniversal string = "Etc/Universal"
-
 	// NmsSettings1TimezoneEtcZulu captures enum value "Etc/Zulu"
 	NmsSettings1TimezoneEtcZulu string = "Etc/Zulu"
 
@@ -3370,12 +3223,6 @@ const (
 
 	// NmsSettings1TimezoneGMT captures enum value "GMT"
 	NmsSettings1TimezoneGMT string = "GMT"
-
-	// NmsSettings1TimezoneGMT0 captures enum value "GMT+0"
-	NmsSettings1TimezoneGMT0 string = "GMT+0"
-
-	// NmsSettings1TimezoneGMT0 captures enum value "GMT-0"
-	NmsSettings1TimezoneGMT0 string = "GMT-0"
 
 	// NmsSettings1TimezoneGMT0 captures enum value "GMT0"
 	NmsSettings1TimezoneGMT0 string = "GMT0"

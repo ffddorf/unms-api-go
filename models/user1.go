@@ -2055,96 +2055,6 @@ const (
 	// User1TimezoneEire captures enum value "Eire"
 	User1TimezoneEire string = "Eire"
 
-	// User1TimezoneEtcGMT captures enum value "Etc/GMT"
-	User1TimezoneEtcGMT string = "Etc/GMT"
-
-	// User1TimezoneEtcGMT0 captures enum value "Etc/GMT+0"
-	User1TimezoneEtcGMT0 string = "Etc/GMT+0"
-
-	// User1TimezoneEtcGMT1 captures enum value "Etc/GMT+1"
-	User1TimezoneEtcGMT1 string = "Etc/GMT+1"
-
-	// User1TimezoneEtcGMT10 captures enum value "Etc/GMT+10"
-	User1TimezoneEtcGMT10 string = "Etc/GMT+10"
-
-	// User1TimezoneEtcGMT11 captures enum value "Etc/GMT+11"
-	User1TimezoneEtcGMT11 string = "Etc/GMT+11"
-
-	// User1TimezoneEtcGMT12 captures enum value "Etc/GMT+12"
-	User1TimezoneEtcGMT12 string = "Etc/GMT+12"
-
-	// User1TimezoneEtcGMT2 captures enum value "Etc/GMT+2"
-	User1TimezoneEtcGMT2 string = "Etc/GMT+2"
-
-	// User1TimezoneEtcGMT3 captures enum value "Etc/GMT+3"
-	User1TimezoneEtcGMT3 string = "Etc/GMT+3"
-
-	// User1TimezoneEtcGMT4 captures enum value "Etc/GMT+4"
-	User1TimezoneEtcGMT4 string = "Etc/GMT+4"
-
-	// User1TimezoneEtcGMT5 captures enum value "Etc/GMT+5"
-	User1TimezoneEtcGMT5 string = "Etc/GMT+5"
-
-	// User1TimezoneEtcGMT6 captures enum value "Etc/GMT+6"
-	User1TimezoneEtcGMT6 string = "Etc/GMT+6"
-
-	// User1TimezoneEtcGMT7 captures enum value "Etc/GMT+7"
-	User1TimezoneEtcGMT7 string = "Etc/GMT+7"
-
-	// User1TimezoneEtcGMT8 captures enum value "Etc/GMT+8"
-	User1TimezoneEtcGMT8 string = "Etc/GMT+8"
-
-	// User1TimezoneEtcGMT9 captures enum value "Etc/GMT+9"
-	User1TimezoneEtcGMT9 string = "Etc/GMT+9"
-
-	// User1TimezoneEtcGMT0 captures enum value "Etc/GMT-0"
-	User1TimezoneEtcGMT0 string = "Etc/GMT-0"
-
-	// User1TimezoneEtcGMT1 captures enum value "Etc/GMT-1"
-	User1TimezoneEtcGMT1 string = "Etc/GMT-1"
-
-	// User1TimezoneEtcGMT10 captures enum value "Etc/GMT-10"
-	User1TimezoneEtcGMT10 string = "Etc/GMT-10"
-
-	// User1TimezoneEtcGMT11 captures enum value "Etc/GMT-11"
-	User1TimezoneEtcGMT11 string = "Etc/GMT-11"
-
-	// User1TimezoneEtcGMT12 captures enum value "Etc/GMT-12"
-	User1TimezoneEtcGMT12 string = "Etc/GMT-12"
-
-	// User1TimezoneEtcGMT13 captures enum value "Etc/GMT-13"
-	User1TimezoneEtcGMT13 string = "Etc/GMT-13"
-
-	// User1TimezoneEtcGMT14 captures enum value "Etc/GMT-14"
-	User1TimezoneEtcGMT14 string = "Etc/GMT-14"
-
-	// User1TimezoneEtcGMT2 captures enum value "Etc/GMT-2"
-	User1TimezoneEtcGMT2 string = "Etc/GMT-2"
-
-	// User1TimezoneEtcGMT3 captures enum value "Etc/GMT-3"
-	User1TimezoneEtcGMT3 string = "Etc/GMT-3"
-
-	// User1TimezoneEtcGMT4 captures enum value "Etc/GMT-4"
-	User1TimezoneEtcGMT4 string = "Etc/GMT-4"
-
-	// User1TimezoneEtcGMT5 captures enum value "Etc/GMT-5"
-	User1TimezoneEtcGMT5 string = "Etc/GMT-5"
-
-	// User1TimezoneEtcGMT6 captures enum value "Etc/GMT-6"
-	User1TimezoneEtcGMT6 string = "Etc/GMT-6"
-
-	// User1TimezoneEtcGMT7 captures enum value "Etc/GMT-7"
-	User1TimezoneEtcGMT7 string = "Etc/GMT-7"
-
-	// User1TimezoneEtcGMT8 captures enum value "Etc/GMT-8"
-	User1TimezoneEtcGMT8 string = "Etc/GMT-8"
-
-	// User1TimezoneEtcGMT9 captures enum value "Etc/GMT-9"
-	User1TimezoneEtcGMT9 string = "Etc/GMT-9"
-
-	// User1TimezoneEtcGMT0 captures enum value "Etc/GMT0"
-	User1TimezoneEtcGMT0 string = "Etc/GMT0"
-
 	// User1TimezoneEtcGreenwich captures enum value "Etc/Greenwich"
 	User1TimezoneEtcGreenwich string = "Etc/Greenwich"
 
@@ -2357,12 +2267,6 @@ const (
 
 	// User1TimezoneGMT captures enum value "GMT"
 	User1TimezoneGMT string = "GMT"
-
-	// User1TimezoneGMT0 captures enum value "GMT+0"
-	User1TimezoneGMT0 string = "GMT+0"
-
-	// User1TimezoneGMT0 captures enum value "GMT-0"
-	User1TimezoneGMT0 string = "GMT-0"
 
 	// User1TimezoneGMT0 captures enum value "GMT0"
 	User1TimezoneGMT0 string = "GMT0"

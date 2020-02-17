@@ -1281,27 +1281,6 @@ const (
 
 	// NmsSettingsDateFormatYYYYMMDD captures enum value "YYYY-MM-DD"
 	NmsSettingsDateFormatYYYYMMDD string = "YYYY-MM-DD"
-
-	// NmsSettingsDateFormatDDMMYYYY captures enum value "DD-MM-YYYY"
-	NmsSettingsDateFormatDDMMYYYY string = "DD-MM-YYYY"
-
-	// NmsSettingsDateFormatDMYYYY captures enum value "D.M.YYYY"
-	NmsSettingsDateFormatDMYYYY string = "D.M.YYYY"
-
-	// NmsSettingsDateFormatDDMMYYYY captures enum value "DD.MM.YYYY"
-	NmsSettingsDateFormatDDMMYYYY string = "DD.MM.YYYY"
-
-	// NmsSettingsDateFormatDMYYYY captures enum value "D/M/YYYY"
-	NmsSettingsDateFormatDMYYYY string = "D/M/YYYY"
-
-	// NmsSettingsDateFormatDDMMYYYY captures enum value "DD/MM/YYYY"
-	NmsSettingsDateFormatDDMMYYYY string = "DD/MM/YYYY"
-
-	// NmsSettingsDateFormatMDYYYY captures enum value "M/D/YYYY"
-	NmsSettingsDateFormatMDYYYY string = "M/D/YYYY"
-
-	// NmsSettingsDateFormatMMDDYYYY captures enum value "MM/DD/YYYY"
-	NmsSettingsDateFormatMMDDYYYY string = "MM/DD/YYYY"
 )
 
 // prop value enum
@@ -3069,105 +3048,6 @@ const (
 	// NmsSettingsTimezoneEire captures enum value "Eire"
 	NmsSettingsTimezoneEire string = "Eire"
 
-	// NmsSettingsTimezoneEtcGMT captures enum value "Etc/GMT"
-	NmsSettingsTimezoneEtcGMT string = "Etc/GMT"
-
-	// NmsSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT+0"
-	NmsSettingsTimezoneEtcGMT0 string = "Etc/GMT+0"
-
-	// NmsSettingsTimezoneEtcGMT1 captures enum value "Etc/GMT+1"
-	NmsSettingsTimezoneEtcGMT1 string = "Etc/GMT+1"
-
-	// NmsSettingsTimezoneEtcGMT10 captures enum value "Etc/GMT+10"
-	NmsSettingsTimezoneEtcGMT10 string = "Etc/GMT+10"
-
-	// NmsSettingsTimezoneEtcGMT11 captures enum value "Etc/GMT+11"
-	NmsSettingsTimezoneEtcGMT11 string = "Etc/GMT+11"
-
-	// NmsSettingsTimezoneEtcGMT12 captures enum value "Etc/GMT+12"
-	NmsSettingsTimezoneEtcGMT12 string = "Etc/GMT+12"
-
-	// NmsSettingsTimezoneEtcGMT2 captures enum value "Etc/GMT+2"
-	NmsSettingsTimezoneEtcGMT2 string = "Etc/GMT+2"
-
-	// NmsSettingsTimezoneEtcGMT3 captures enum value "Etc/GMT+3"
-	NmsSettingsTimezoneEtcGMT3 string = "Etc/GMT+3"
-
-	// NmsSettingsTimezoneEtcGMT4 captures enum value "Etc/GMT+4"
-	NmsSettingsTimezoneEtcGMT4 string = "Etc/GMT+4"
-
-	// NmsSettingsTimezoneEtcGMT5 captures enum value "Etc/GMT+5"
-	NmsSettingsTimezoneEtcGMT5 string = "Etc/GMT+5"
-
-	// NmsSettingsTimezoneEtcGMT6 captures enum value "Etc/GMT+6"
-	NmsSettingsTimezoneEtcGMT6 string = "Etc/GMT+6"
-
-	// NmsSettingsTimezoneEtcGMT7 captures enum value "Etc/GMT+7"
-	NmsSettingsTimezoneEtcGMT7 string = "Etc/GMT+7"
-
-	// NmsSettingsTimezoneEtcGMT8 captures enum value "Etc/GMT+8"
-	NmsSettingsTimezoneEtcGMT8 string = "Etc/GMT+8"
-
-	// NmsSettingsTimezoneEtcGMT9 captures enum value "Etc/GMT+9"
-	NmsSettingsTimezoneEtcGMT9 string = "Etc/GMT+9"
-
-	// NmsSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT-0"
-	NmsSettingsTimezoneEtcGMT0 string = "Etc/GMT-0"
-
-	// NmsSettingsTimezoneEtcGMT1 captures enum value "Etc/GMT-1"
-	NmsSettingsTimezoneEtcGMT1 string = "Etc/GMT-1"
-
-	// NmsSettingsTimezoneEtcGMT10 captures enum value "Etc/GMT-10"
-	NmsSettingsTimezoneEtcGMT10 string = "Etc/GMT-10"
-
-	// NmsSettingsTimezoneEtcGMT11 captures enum value "Etc/GMT-11"
-	NmsSettingsTimezoneEtcGMT11 string = "Etc/GMT-11"
-
-	// NmsSettingsTimezoneEtcGMT12 captures enum value "Etc/GMT-12"
-	NmsSettingsTimezoneEtcGMT12 string = "Etc/GMT-12"
-
-	// NmsSettingsTimezoneEtcGMT13 captures enum value "Etc/GMT-13"
-	NmsSettingsTimezoneEtcGMT13 string = "Etc/GMT-13"
-
-	// NmsSettingsTimezoneEtcGMT14 captures enum value "Etc/GMT-14"
-	NmsSettingsTimezoneEtcGMT14 string = "Etc/GMT-14"
-
-	// NmsSettingsTimezoneEtcGMT2 captures enum value "Etc/GMT-2"
-	NmsSettingsTimezoneEtcGMT2 string = "Etc/GMT-2"
-
-	// NmsSettingsTimezoneEtcGMT3 captures enum value "Etc/GMT-3"
-	NmsSettingsTimezoneEtcGMT3 string = "Etc/GMT-3"
-
-	// NmsSettingsTimezoneEtcGMT4 captures enum value "Etc/GMT-4"
-	NmsSettingsTimezoneEtcGMT4 string = "Etc/GMT-4"
-
-	// NmsSettingsTimezoneEtcGMT5 captures enum value "Etc/GMT-5"
-	NmsSettingsTimezoneEtcGMT5 string = "Etc/GMT-5"
-
-	// NmsSettingsTimezoneEtcGMT6 captures enum value "Etc/GMT-6"
-	NmsSettingsTimezoneEtcGMT6 string = "Etc/GMT-6"
-
-	// NmsSettingsTimezoneEtcGMT7 captures enum value "Etc/GMT-7"
-	NmsSettingsTimezoneEtcGMT7 string = "Etc/GMT-7"
-
-	// NmsSettingsTimezoneEtcGMT8 captures enum value "Etc/GMT-8"
-	NmsSettingsTimezoneEtcGMT8 string = "Etc/GMT-8"
-
-	// NmsSettingsTimezoneEtcGMT9 captures enum value "Etc/GMT-9"
-	NmsSettingsTimezoneEtcGMT9 string = "Etc/GMT-9"
-
-	// NmsSettingsTimezoneEtcGMT0 captures enum value "Etc/GMT0"
-	NmsSettingsTimezoneEtcGMT0 string = "Etc/GMT0"
-
-	// NmsSettingsTimezoneEtcGreenwich captures enum value "Etc/Greenwich"
-	NmsSettingsTimezoneEtcGreenwich string = "Etc/Greenwich"
-
-	// NmsSettingsTimezoneEtcUCT captures enum value "Etc/UCT"
-	NmsSettingsTimezoneEtcUCT string = "Etc/UCT"
-
-	// NmsSettingsTimezoneEtcUTC captures enum value "Etc/UTC"
-	NmsSettingsTimezoneEtcUTC string = "Etc/UTC"
-
 	// NmsSettingsTimezoneEtcUniversal captures enum value "Etc/Universal"
 	NmsSettingsTimezoneEtcUniversal string = "Etc/Universal"
 
@@ -3368,18 +3248,6 @@ const (
 
 	// NmsSettingsTimezoneGBEire captures enum value "GB-Eire"
 	NmsSettingsTimezoneGBEire string = "GB-Eire"
-
-	// NmsSettingsTimezoneGMT captures enum value "GMT"
-	NmsSettingsTimezoneGMT string = "GMT"
-
-	// NmsSettingsTimezoneGMT0 captures enum value "GMT+0"
-	NmsSettingsTimezoneGMT0 string = "GMT+0"
-
-	// NmsSettingsTimezoneGMT0 captures enum value "GMT-0"
-	NmsSettingsTimezoneGMT0 string = "GMT-0"
-
-	// NmsSettingsTimezoneGMT0 captures enum value "GMT0"
-	NmsSettingsTimezoneGMT0 string = "GMT0"
 
 	// NmsSettingsTimezoneGreenwich captures enum value "Greenwich"
 	NmsSettingsTimezoneGreenwich string = "Greenwich"

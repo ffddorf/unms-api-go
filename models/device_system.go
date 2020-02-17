@@ -1532,96 +1532,6 @@ const (
 	// DeviceSystemTimezoneEire captures enum value "Eire"
 	DeviceSystemTimezoneEire string = "Eire"
 
-	// DeviceSystemTimezoneEtcGMT captures enum value "Etc/GMT"
-	DeviceSystemTimezoneEtcGMT string = "Etc/GMT"
-
-	// DeviceSystemTimezoneEtcGMT0 captures enum value "Etc/GMT+0"
-	DeviceSystemTimezoneEtcGMT0 string = "Etc/GMT+0"
-
-	// DeviceSystemTimezoneEtcGMT1 captures enum value "Etc/GMT+1"
-	DeviceSystemTimezoneEtcGMT1 string = "Etc/GMT+1"
-
-	// DeviceSystemTimezoneEtcGMT10 captures enum value "Etc/GMT+10"
-	DeviceSystemTimezoneEtcGMT10 string = "Etc/GMT+10"
-
-	// DeviceSystemTimezoneEtcGMT11 captures enum value "Etc/GMT+11"
-	DeviceSystemTimezoneEtcGMT11 string = "Etc/GMT+11"
-
-	// DeviceSystemTimezoneEtcGMT12 captures enum value "Etc/GMT+12"
-	DeviceSystemTimezoneEtcGMT12 string = "Etc/GMT+12"
-
-	// DeviceSystemTimezoneEtcGMT2 captures enum value "Etc/GMT+2"
-	DeviceSystemTimezoneEtcGMT2 string = "Etc/GMT+2"
-
-	// DeviceSystemTimezoneEtcGMT3 captures enum value "Etc/GMT+3"
-	DeviceSystemTimezoneEtcGMT3 string = "Etc/GMT+3"
-
-	// DeviceSystemTimezoneEtcGMT4 captures enum value "Etc/GMT+4"
-	DeviceSystemTimezoneEtcGMT4 string = "Etc/GMT+4"
-
-	// DeviceSystemTimezoneEtcGMT5 captures enum value "Etc/GMT+5"
-	DeviceSystemTimezoneEtcGMT5 string = "Etc/GMT+5"
-
-	// DeviceSystemTimezoneEtcGMT6 captures enum value "Etc/GMT+6"
-	DeviceSystemTimezoneEtcGMT6 string = "Etc/GMT+6"
-
-	// DeviceSystemTimezoneEtcGMT7 captures enum value "Etc/GMT+7"
-	DeviceSystemTimezoneEtcGMT7 string = "Etc/GMT+7"
-
-	// DeviceSystemTimezoneEtcGMT8 captures enum value "Etc/GMT+8"
-	DeviceSystemTimezoneEtcGMT8 string = "Etc/GMT+8"
-
-	// DeviceSystemTimezoneEtcGMT9 captures enum value "Etc/GMT+9"
-	DeviceSystemTimezoneEtcGMT9 string = "Etc/GMT+9"
-
-	// DeviceSystemTimezoneEtcGMT0 captures enum value "Etc/GMT-0"
-	DeviceSystemTimezoneEtcGMT0 string = "Etc/GMT-0"
-
-	// DeviceSystemTimezoneEtcGMT1 captures enum value "Etc/GMT-1"
-	DeviceSystemTimezoneEtcGMT1 string = "Etc/GMT-1"
-
-	// DeviceSystemTimezoneEtcGMT10 captures enum value "Etc/GMT-10"
-	DeviceSystemTimezoneEtcGMT10 string = "Etc/GMT-10"
-
-	// DeviceSystemTimezoneEtcGMT11 captures enum value "Etc/GMT-11"
-	DeviceSystemTimezoneEtcGMT11 string = "Etc/GMT-11"
-
-	// DeviceSystemTimezoneEtcGMT12 captures enum value "Etc/GMT-12"
-	DeviceSystemTimezoneEtcGMT12 string = "Etc/GMT-12"
-
-	// DeviceSystemTimezoneEtcGMT13 captures enum value "Etc/GMT-13"
-	DeviceSystemTimezoneEtcGMT13 string = "Etc/GMT-13"
-
-	// DeviceSystemTimezoneEtcGMT14 captures enum value "Etc/GMT-14"
-	DeviceSystemTimezoneEtcGMT14 string = "Etc/GMT-14"
-
-	// DeviceSystemTimezoneEtcGMT2 captures enum value "Etc/GMT-2"
-	DeviceSystemTimezoneEtcGMT2 string = "Etc/GMT-2"
-
-	// DeviceSystemTimezoneEtcGMT3 captures enum value "Etc/GMT-3"
-	DeviceSystemTimezoneEtcGMT3 string = "Etc/GMT-3"
-
-	// DeviceSystemTimezoneEtcGMT4 captures enum value "Etc/GMT-4"
-	DeviceSystemTimezoneEtcGMT4 string = "Etc/GMT-4"
-
-	// DeviceSystemTimezoneEtcGMT5 captures enum value "Etc/GMT-5"
-	DeviceSystemTimezoneEtcGMT5 string = "Etc/GMT-5"
-
-	// DeviceSystemTimezoneEtcGMT6 captures enum value "Etc/GMT-6"
-	DeviceSystemTimezoneEtcGMT6 string = "Etc/GMT-6"
-
-	// DeviceSystemTimezoneEtcGMT7 captures enum value "Etc/GMT-7"
-	DeviceSystemTimezoneEtcGMT7 string = "Etc/GMT-7"
-
-	// DeviceSystemTimezoneEtcGMT8 captures enum value "Etc/GMT-8"
-	DeviceSystemTimezoneEtcGMT8 string = "Etc/GMT-8"
-
-	// DeviceSystemTimezoneEtcGMT9 captures enum value "Etc/GMT-9"
-	DeviceSystemTimezoneEtcGMT9 string = "Etc/GMT-9"
-
-	// DeviceSystemTimezoneEtcGMT0 captures enum value "Etc/GMT0"
-	DeviceSystemTimezoneEtcGMT0 string = "Etc/GMT0"
-
 	// DeviceSystemTimezoneEtcGreenwich captures enum value "Etc/Greenwich"
 	DeviceSystemTimezoneEtcGreenwich string = "Etc/Greenwich"
 
@@ -1834,15 +1744,6 @@ const (
 
 	// DeviceSystemTimezoneGMT captures enum value "GMT"
 	DeviceSystemTimezoneGMT string = "GMT"
-
-	// DeviceSystemTimezoneGMT0 captures enum value "GMT+0"
-	DeviceSystemTimezoneGMT0 string = "GMT+0"
-
-	// DeviceSystemTimezoneGMT0 captures enum value "GMT-0"
-	DeviceSystemTimezoneGMT0 string = "GMT-0"
-
-	// DeviceSystemTimezoneGMT0 captures enum value "GMT0"
-	DeviceSystemTimezoneGMT0 string = "GMT0"
 
 	// DeviceSystemTimezoneGreenwich captures enum value "Greenwich"
 	DeviceSystemTimezoneGreenwich string = "Greenwich"
